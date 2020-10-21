@@ -6,12 +6,16 @@
   "scripts": {
     "start": "npm-run-all --parallel start:**",
     "build": "npm-run-all --parallel build:**",
+    "install-all": "npm-run-all --parallel install:**",
     "start:main": "cd ./main-demo && yarn start",
     "build:main": "cd ./main-demo && yarn build",
-    "start:app1": "cd ./webpack4App && yarn start",
-    "build:app1": "cd ./webpack4App && yarn build",
-    "start:app2": "cd ./webpack5App && yarn start",
-    "build:app2": "cd ./webpack5App && yarn build"
+    "install:main": "cd ./main-demo && yarn install",
+    "start:webpack4App": "cd ./webpack4App && yarn start",
+    "build:webpack4App": "cd ./webpack4App && yarn build",
+    "install:webpack4App": "cd ./webpack4App && yarn install",
+    "start:webpack5App": "cd ./webpack5App && yarn start",
+    "build:webpack5App": "cd ./webpack5App && yarn build",
+    "install:webpack5App": "cd ./webpack5App && yarn install"
   },
   "author": "toulon",
   "license": "ISC",
