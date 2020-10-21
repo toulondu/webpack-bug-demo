@@ -1,0 +1,16 @@
+#app {
+  height: 100%;
+  overflow: auto;
+}
+.container{
+  display:flex;
+}
+
+.leftside{
+  border:1px solid;
+  width:20%;
+}
+.content{
+  border: 1px solid blue;
+  flex: 1;
+}
